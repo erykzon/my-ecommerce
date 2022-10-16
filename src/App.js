@@ -1,22 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { Container } from 'postcss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div>
+          <img src="https://enez76gwp29.exactdn.com/wp-content/uploads/2020/04/Ghibli_logo.png?strip=all&amp;lossy=1&amp;ssl=1" 
+            className='header_logo' alt="logo" />
+            <div className='container' class="flex-wrap">
+            <div>Movies</div>
+            <div>Accesories</div>
+            <div>Clothes</div>
+            </div>
+        </div>
       </header>
     </div>
   );
